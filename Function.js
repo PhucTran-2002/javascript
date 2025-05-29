@@ -45,3 +45,8 @@ function Person(name) {
   
 const p1 = new Person("Phuc");
 console.log(p1.name);
+//
+const btn = document.querySelector("button");
+btn.addEventListener("click", function() {
+  console.log(this); 
+});
