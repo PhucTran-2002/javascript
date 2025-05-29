@@ -43,5 +43,5 @@ function Person(name) {
     this.name = name;
   }
   
-const p1 = new Person("Bob");
+const p1 = new Person("Phuc");
 console.log(p1.name);
